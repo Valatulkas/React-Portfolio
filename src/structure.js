@@ -1,11 +1,11 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-const structure = (props) => {
+const Structure = (props) => {
     return (
         <React.Fragment>
             <nav>
-                
+
             </nav>
             <div className='container' id='main-content'>
                 {props.children}
@@ -16,3 +16,5 @@ const structure = (props) => {
         </React.Fragment>
     )
 }
+
+export default Structure
