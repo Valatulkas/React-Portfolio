@@ -8,9 +8,9 @@ function App() {
   return (
     <Router>
       <Structure>
-        <Route path='/photo' exact component={PhotoDisplay} />
+        <PhotoDisplay />
           
-        <Route path='/bio' component={Bio} />
+        <Bio />
       </Structure>
     </Router>
   );
