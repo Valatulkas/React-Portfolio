@@ -1,11 +1,8 @@
-.App {
+nav, footer {
   text-align: center;
 }
-
-h1, h3 {
-  text-align: center;
-}
-
-nav {
-  display: inline;
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
