@@ -10,12 +10,19 @@ const Structure = (props) => {
                         <h1>JFerg</h1>
                     </div>
                     <div className='col-12 col-md-3'>
+                    <button className='button'>
                         <NavLink to='/projects'>
                             <h4>projects</h4>
                         </NavLink>
+                    </button>
+                        
                     </div>
                     <div className='col-12 col-md-3'>
-                        <h3>About</h3>
+                        <button className='button'>
+                            <NavLink to='/bio'>
+                                <h4>about</h4>
+                            </NavLink>
+                        </button>
                     </div>
                 </div>
             </nav>

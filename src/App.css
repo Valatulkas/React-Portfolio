@@ -8,8 +8,16 @@ footer {
 nav, footer {
   background-color: rgb(120, 99, 131);
 }
+footer > a {
+  text-decoration: none;
+  color: white;
+}
+
 #root {
   background-color: rgb(243, 228, 250);
+  background-image: url('./background.JPG');
+  background-size: contain;
+  color: white;
 }
 nav {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
