@@ -3,7 +3,6 @@ import './App.css';
 import Structure from './structure';
 import PhotoDisplay from './photo-portion';
 import Bio from './bio';
-import Petunia from './petunia';
 import Project from './projects';
 
 function App() {
@@ -12,7 +11,6 @@ function App() {
       <Structure>
         <Project />
         <PhotoDisplay />
-        <Petunia />
           
         <Bio />
       </Structure>

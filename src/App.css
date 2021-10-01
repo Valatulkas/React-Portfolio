@@ -11,3 +11,6 @@ nav, footer {
 #root {
   background-color: rgb(243, 228, 250);
 }
+nav {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

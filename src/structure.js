@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const Structure = (props) => {
     return (
@@ -9,7 +10,9 @@ const Structure = (props) => {
                         <h1>JFerg</h1>
                     </div>
                     <div className='col-12 col-md-3'>
-                        <h3>Projects</h3>
+                        <NavLink to='/projects'>
+                            <h4>projects</h4>
+                        </NavLink>
                     </div>
                     <div className='col-12 col-md-3'>
                         <h3>About</h3>

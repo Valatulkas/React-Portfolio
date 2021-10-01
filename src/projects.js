@@ -1,5 +1,7 @@
 import React from 'react';
 import work from './work.JPG';
+import Petunia from './petunia';
+import Yapon from './yapon';
 
 const Project = (props) => {
     return (
@@ -49,6 +51,8 @@ const Project = (props) => {
                         <h4>Trials and tribulations of restoring an AWD van</h4>
                     </div>
                     <div className='col-md-2'></div>
+                    <Petunia />
+                    <Yapon />
                 </div>
             </div>
         </React.Fragment>
