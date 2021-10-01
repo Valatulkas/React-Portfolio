@@ -52,9 +52,9 @@ const Project = (props) => {
                         <h4>Trials and tribulations of restoring an AWD van</h4>
                     </div>
                     <div className='col-md-2'></div>
-                    <Petunia />
                     <Yapon />
                     <Wuter />
+                    <Petunia />
                 </div>
             </div>
         </React.Fragment>
