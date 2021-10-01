@@ -2,6 +2,7 @@ import React from 'react';
 import work from './work.JPG';
 import Petunia from './petunia';
 import Yapon from './yapon';
+import Wuter from './wuter';
 
 const Project = (props) => {
     return (
@@ -53,6 +54,7 @@ const Project = (props) => {
                     <div className='col-md-2'></div>
                     <Petunia />
                     <Yapon />
+                    <Wuter />
                 </div>
             </div>
         </React.Fragment>
