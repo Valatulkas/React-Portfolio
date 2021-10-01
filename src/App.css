@@ -5,3 +5,9 @@ footer {
   bottom: 0;
   width: 100%;
 }
+nav, footer {
+  background-color: rgb(120, 99, 131);
+}
+#root {
+  background-color: rgb(243, 228, 250);
+}

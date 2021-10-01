@@ -8,13 +8,10 @@ const Structure = (props) => {
                     <div className='col-12 col-md-6'>
                         <h1>JFerg</h1>
                     </div>
-                    <div className='col-12 col-md-2'>
+                    <div className='col-12 col-md-3'>
                         <h3>Projects</h3>
                     </div>
-                    <div className='col-12 col-md-2'>
-                        <h3>Photos</h3>
-                    </div>
-                    <div className='col-12 col-md-2'>
+                    <div className='col-12 col-md-3'>
                         <h3>About</h3>
                     </div>
                 </div>

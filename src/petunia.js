@@ -19,6 +19,7 @@ const Petunia = (props) => {
                         <h5>description</h5>
                     </div>
                     <div className='col-md-1'></div>
+                    
                     <div className='col-md-1'></div>
                     <div className='col-md-8'>
                         <img src={ rubber } alt='petunia2' width='500px' height='auto'
@@ -28,6 +29,7 @@ const Petunia = (props) => {
                         <h5>description</h5>
                     </div>
                     <div className='col-md-1'></div>
+
                     <div className='col-md-1'></div>
                     <div className='col-md-8'>
                         <img src={ use } alt='petunia3' width='500px' height='auto' />
@@ -36,6 +38,7 @@ const Petunia = (props) => {
                         <h5>description</h5>
                     </div>
                     <div className='col-md-1'></div>
+
                     <div className='col-md-1'></div>
                     <div className='col-md-8'>
                         <img src={ snow } alt="petunia4" width='500px' height='auto' />
@@ -45,6 +48,7 @@ const Petunia = (props) => {
                     </div>
                     <div className='col-md-1'></div>
                     <div className='col-md-1'></div>
+
                     <div className='col-md-1'></div>
                     <div className='col-md-8'>
                         <img src={ surf } alt="petunia5" width='500px' height='auto' />
