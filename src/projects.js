@@ -34,6 +34,12 @@ const Project = (props) => {
                         </a>
                     </div>
                     <div className='col-md-2'></div>
+
+                    <div className='col-md-2'></div>
+                    <div className='col-md-8'>
+                            <h5>React Currency Converter</h5>
+                    </div>
+                    <div className='col-md-2'></div>
                     
                     <div className='col-md-2'></div>
                     <div className='col-md-4'>
