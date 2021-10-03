@@ -1,8 +1,7 @@
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
 import Structure from './structure';
-import PhotoDisplay from './photo-portion';
-import Bio from './bio';
+import IntroDisplay from './photo-portion';
 import Project from './projects';
 import Petunia from './petunia';
 import Corco from './corco';
@@ -15,7 +14,7 @@ function App() {
     <Router>
       <Structure>
 
-        <Route path='/' exact component={PhotoDisplay} />
+        <Route path='/' exact component={IntroDisplay} />
         <Route path='/projects' component={Project} />
         <Route path='/petunia' component={Petunia} />
         <Route path='/corco' component={Corco} />

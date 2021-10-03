@@ -7,7 +7,11 @@ const Structure = (props) => {
             <nav className='navbar navbar-expand-lg'>
                 <div className='container'>
                     <div className='col-12 col-md-6'>
-                        <h1>JFerg</h1>
+                        <button className='button'>
+                            <NavLink to='/'>
+                                <h1>JFerg</h1>
+                            </NavLink>
+                        </button>
                     </div>
                     <div className='col-12 col-md-3'>
                         <button className='button'>

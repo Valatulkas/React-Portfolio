@@ -2,7 +2,6 @@ body {
   height: 100%;
   margin: 0;
 }
-
 nav, footer, .main {
   text-align: center;
 }
@@ -10,18 +9,16 @@ footer {
   bottom: 0;
   width: 100%;
 }
+
+button {
+  text-decoration: none;
+}
+
 nav, footer {
   background-color: rgb(120, 99, 131);
 }
-footer > a {
-  text-decoration: none;
-  color: white;
-}
-
-.photo-background {
-  background-color: rgb(243, 228, 250);
-  background-image: url('./background.JPG');
-  background-size: contain;
+#root {
+  background-color: rgb(243, 232, 249);
 }
 nav {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
