@@ -8,6 +8,7 @@ import Petunia from './petunia';
 import Corco from './corco';
 import Wuter from './wuter';
 import Yapon from './yapon';
+import Sugoi from './sugoi';
 
 function App() {
   return (
@@ -16,14 +17,11 @@ function App() {
 
         <Route path='/' exact component={PhotoDisplay} />
         <Route path='/projects' component={Project} />
-        <Route path='/bio' component={Bio} />
         <Route path='/petunia' component={Petunia} />
         <Route path='/corco' component={Corco} />
         <Route path='/wuter' component={Wuter} />
         <Route path='/yapon' component={Yapon} />
-
-        
-
+        <Route path='/sugoi' component={Sugoi} />
 
       </Structure>
     </Router>

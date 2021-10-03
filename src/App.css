@@ -21,12 +21,7 @@ footer > a {
 .photo-background {
   background-color: rgb(243, 228, 250);
   background-image: url('./background.JPG');
-  background-size: cover;
-  position: fixed; 
-  top: 10; 
-  left: 0; 
-  min-width: 100%;
-  min-height: 100%;
+  background-size: contain;
 }
 nav {
   font-family: Verdana, Geneva, Tahoma, sans-serif;

@@ -10,17 +10,16 @@ const Structure = (props) => {
                         <h1>JFerg</h1>
                     </div>
                     <div className='col-12 col-md-3'>
-                    <button className='button'>
-                        <NavLink to='/projects'>
-                            <h4>projects</h4>
-                        </NavLink>
-                    </button>
-                        
+                        <button className='button'>
+                            <NavLink to='/projects'>
+                                <h4>WebDev</h4>
+                            </NavLink>
+                        </button>
                     </div>
                     <div className='col-12 col-md-3'>
                         <button className='button'>
-                            <NavLink to='/bio'>
-                                <h4>about</h4>
+                            <NavLink to='/sugoi'>
+                                <h4>Sugoi (japanese for 'awesome-ness')</h4>
                             </NavLink>
                         </button>
                     </div>
