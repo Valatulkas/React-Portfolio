@@ -9,10 +9,11 @@ function App() {
   return (
     <Router>
       <Structure>
-        <Project />
-        <PhotoDisplay />
-          
-        <Bio />
+
+        <Route path='/' exact component={PhotoDisplay} />
+        <Route path='/projects' component={Project} />
+        <Route path='/bio' component={Bio} />
+
       </Structure>
     </Router>
   );
