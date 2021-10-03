@@ -50,12 +50,23 @@ const Project = (props) => {
                         <img src={ work } alt='petunia1' width='300px' height='auto' />
                     </div>
                     <div className='col-md-4'>
-                    <NavLink to='./petunia'>
-                        <h4>Trials and tribulations of restoring an AWD van</h4>
-                    </NavLink>
-                        
+                        <NavLink to='./petunia'>
+                            <h4>Trials and tribulations of restoring an AWD van</h4>
+                        </NavLink>
                     </div>
                     <div className='col-md-2'></div>
+
+                    <div className='col-md-2'></div>
+                    <div className='col-md-4'>
+                
+                    </div>
+                    <div className='col-md-4'>
+                        <NavLink to='./corco'>
+                            <h4>watery plains</h4>
+                        </NavLink>
+                    </div>
+                    <div className='col-md-2'></div>
+
                     <Yapon />
                     <Wuter />
                 </div>
