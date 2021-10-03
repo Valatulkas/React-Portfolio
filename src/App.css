@@ -19,12 +19,14 @@ footer > a {
 }
 
 .photo-background {
-  height: 100%;
-  margin: 0;
   background-color: rgb(243, 228, 250);
   background-image: url('./background.JPG');
-  background-size: contain;
-  
+  background-size: cover;
+  position: fixed; 
+  top: 10; 
+  left: 0; 
+  min-width: 100%;
+  min-height: 100%;
 }
 nav {
   font-family: Verdana, Geneva, Tahoma, sans-serif;

@@ -22,6 +22,8 @@ function App() {
         <Route path='/wuter' component={Wuter} />
         <Route path='/yapon' component={Yapon} />
 
+        
+
 
       </Structure>
     </Router>
