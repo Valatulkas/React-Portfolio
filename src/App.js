@@ -6,6 +6,8 @@ import Bio from './bio';
 import Project from './projects';
 import Petunia from './petunia';
 import Corco from './corco';
+import Wuter from './wuter';
+import Yapon from './yapon';
 
 function App() {
   return (
@@ -17,6 +19,9 @@ function App() {
         <Route path='/bio' component={Bio} />
         <Route path='/petunia' component={Petunia} />
         <Route path='/corco' component={Corco} />
+        <Route path='/wuter' component={Wuter} />
+        <Route path='/yapon' component={Yapon} />
+
 
       </Structure>
     </Router>

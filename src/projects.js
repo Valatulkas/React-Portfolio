@@ -1,9 +1,9 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom'
 import work from './work.JPG';
-import Petunia from './petunia';
-import Yapon from './yapon';
-import Wuter from './wuter';
+import feesh from './feesh.jpeg';
+import yapon from './yapon.JPG';
+import subway from './subway.JPG';
 
 const Project = (props) => {
     return (
@@ -50,25 +50,45 @@ const Project = (props) => {
                         <img src={ work } alt='petunia1' width='300px' height='auto' />
                     </div>
                     <div className='col-md-4'>
-                        <NavLink to='./petunia'>
+                        <Link to='./petunia'>
                             <h4>Trials and tribulations of restoring an AWD van</h4>
-                        </NavLink>
+                        </Link>
                     </div>
                     <div className='col-md-2'></div>
 
                     <div className='col-md-2'></div>
                     <div className='col-md-4'>
-                
+                    <img src={ feesh } alt='feesh' width='300px' height='auto' />
                     </div>
                     <div className='col-md-4'>
-                        <NavLink to='./corco'>
+                        <Link to='./corco'>
                             <h4>watery plains</h4>
-                        </NavLink>
+                        </Link>
                     </div>
                     <div className='col-md-2'></div>
 
-                    <Yapon />
-                    <Wuter />
+                    <div className='col-md-2'></div>
+                    <div className='col-md-4'>
+                    <img src={ yapon } alt='feesh' width='300px' height='auto' />
+                    </div>
+                    <div className='col-md-4'>
+                        <Link to='./yapon'>
+                            <h4>hokkaido hospitality</h4>
+                        </Link>
+                    </div>
+                    <div className='col-md-2'></div>
+
+                    <div className='col-md-2'></div>
+                    <div className='col-md-4'>
+                    <img src={ subway } alt='feesh' width='300px' height='auto' />
+                    </div>
+                    <div className='col-md-4'>
+                        <Link to='./wuter'>
+                            <h4>subway surfin</h4>
+                        </Link>
+                    </div>
+                    <div className='col-md-2'></div>
+
                 </div>
             </div>
         </React.Fragment>
