@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import work from './work.JPG';
 import Petunia from './petunia';
 import Yapon from './yapon';
@@ -49,12 +50,14 @@ const Project = (props) => {
                         <img src={ work } alt='petunia1' width='300px' height='auto' />
                     </div>
                     <div className='col-md-4'>
+                    <NavLink to='./petunia'>
                         <h4>Trials and tribulations of restoring an AWD van</h4>
+                    </NavLink>
+                        
                     </div>
                     <div className='col-md-2'></div>
                     <Yapon />
                     <Wuter />
-                    <Petunia />
                 </div>
             </div>
         </React.Fragment>

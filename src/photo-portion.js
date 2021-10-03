@@ -3,7 +3,7 @@ import React from 'react';
 const PhotoDisplay = (props) => {
     return (
         <React.Fragment>
-            <div className='container main my-4'>
+            <div className='container main my-4 photo-background'>
                 <div className='row'>
                     <div className='col-0 col-md-2'></div>
                     <div className='col-md-3'>

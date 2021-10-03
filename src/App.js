@@ -4,6 +4,7 @@ import Structure from './structure';
 import PhotoDisplay from './photo-portion';
 import Bio from './bio';
 import Project from './projects';
+import Petunia from './petunia';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path='/' exact component={PhotoDisplay} />
         <Route path='/projects' component={Project} />
         <Route path='/bio' component={Bio} />
+        <Route path='/petunia' component={Petunia} />
 
       </Structure>
     </Router>
