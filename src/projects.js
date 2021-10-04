@@ -7,9 +7,13 @@ const Project = (props) => {
                 <div className='row'>
                     <div className='col-2'></div>
                     <div className='col-12'>
-                        <h3>
+                        <h2>
                             WebDev Projects
-                        </h3>
+                        </h2>
+                        <hr/>
+                    </div>
+                    <div className='col-12'>
+                        <h4>HTML5 - CSS3</h4>
                     </div>
                     <div className='col-md-2'></div>
                     <div className='col-md-8' id='webdev'>
@@ -34,7 +38,11 @@ const Project = (props) => {
                         </a>
                     </div>
                     <div className='col-md-2'></div>
+                    <hr/>
 
+                    <div className='col-12'>
+                        <h4>JS - React.js</h4>
+                    </div>
                     <div className='col-md-2'></div>
                     <div className='col-md-8' id='webdev'>
                         <a href='https://jovial-jepsen-0d057e.netlify.app/'>
@@ -42,6 +50,7 @@ const Project = (props) => {
                         </a>
                     </div>
                     <div className='col-md-2'></div>
+                    <br/>
                 </div>
             </div>
         </React.Fragment>
