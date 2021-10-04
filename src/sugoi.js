@@ -8,14 +8,14 @@ import subway from './subway.JPG';
 const Sugoi = (props) => {
     return (
         <React.Fragment>
-            <div className='container main'>
+            <div className='container main sugoi'>
                 <div className='row py-4'>
 
                     <div className='col-md-1'></div>
                     <div className='col-md-2'>
-                        <Link to='./petunia'>
-                            <h4>Trials and tribulations of restoring an AWD van</h4>
-                        </Link>
+                            <Link to='./petunia'>
+                                <h4>Trials and tribulations of restoring an AWD van</h4>
+                            </Link>
                     </div>
                     <div className='col-md-3'>
                         <img src={ work } alt='petunia1' width='300px' height='auto' />

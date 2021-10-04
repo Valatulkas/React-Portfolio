@@ -7,25 +7,25 @@ const Structure = (props) => {
             <nav className='navbar navbar-expand-lg'>
                 <div className='container'>
                     <div className='col-12 col-md-6'>
-                        <button className='button'>
+                        <a className='navbar-link'>
                             <NavLink to='/'>
                                 <h1>JFerg</h1>
                             </NavLink>
-                        </button>
+                        </a>
                     </div>
                     <div className='col-12 col-md-3'>
-                        <button className='button'>
+                        <a className='navbar-link'>
                             <NavLink to='/projects'>
                                 <h4>WebDev</h4>
                             </NavLink>
-                        </button>
+                        </a>
                     </div>
                     <div className='col-12 col-md-3'>
-                        <button className='button'>
+                        <a className='navbar-link'>
                             <NavLink to='/sugoi'>
                                 <h4>Sugoi (japanese for 'awesome-ness')</h4>
                             </NavLink>
-                        </button>
+                        </a>
                     </div>
                 </div>
             </nav>
@@ -37,7 +37,7 @@ const Structure = (props) => {
                     <div className='row'>
                         <div className='col-12 col-md-4'>
                             <a href='https://github.com/Valatulkas'>
-                                <img src='./images/github-seeklogo.com.svg' alt='github' className='mb-4'></img>
+                                <h4 className='mb-4'>github</h4>
                             </a>
                         </div>
                         <div className='col-12 col-md-4'>

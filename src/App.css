@@ -9,11 +9,6 @@ footer {
   bottom: 0;
   width: 100%;
 }
-
-button {
-  text-decoration: none;
-}
-
 nav, footer {
   background-color: rgb(120, 99, 131);
 }
@@ -22,4 +17,18 @@ nav, footer {
 }
 nav {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: antiquewhite;
+}
+a:hover {
+  color: rgb(208, 247, 245);
+  transform: scale(1.3);
+}
+
+.sugoi > a {
+  text-decoration: none;
+  color: rgb(35, 1, 59);
 }
