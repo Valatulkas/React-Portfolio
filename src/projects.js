@@ -12,32 +12,34 @@ const Project = (props) => {
                         </h3>
                     </div>
                     <div className='col-md-2'></div>
-                    <div className='col-md-8'>
-                        <a>
+                    <div className='col-md-8' id='webdev'>
+                        <a href='https://eager-lamarr-f0647c.netlify.app/'>
                             <h5>Apple Clone</h5>
                         </a>
                     </div>
                     <div className='col-md-2'></div>
 
                     <div className='col-md-2'></div>
-                    <div className='col-md-8'>
-                        <a>
+                    <div className='col-md-8' id='webdev'>
+                        <a href='https://romantic-raman-89cffe.netlify.app/'>
                             <h5>Newsweek Clone</h5>
                         </a>
                     </div>
                     <div className='col-md-2'></div>
 
                     <div className='col-md-2'></div>
-                    <div className='col-md-8'>
-                        <a>
-                            <h5>AirBNB Clone</h5>
+                    <div className='col-md-8' id='webdev'>
+                        <a href='https://optimistic-jepsen-9be5a6.netlify.app/'>
+                            <h5>AirBNB Newsroom Clone</h5>
                         </a>
                     </div>
                     <div className='col-md-2'></div>
 
                     <div className='col-md-2'></div>
-                    <div className='col-md-8'>
+                    <div className='col-md-8' id='webdev'>
+                        <a href='https://jovial-jepsen-0d057e.netlify.app/'>
                             <h5>React Currency Converter</h5>
+                        </a>
                     </div>
                     <div className='col-md-2'></div>
                 </div>
