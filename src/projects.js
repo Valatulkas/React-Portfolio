@@ -34,6 +34,7 @@ const Project = (props) => {
                         <a href='https://romantic-raman-89cffe.netlify.app/' target="_blank">
                             <img src={ newsweek } width='600px' height='auto' />
                             <h5>Newsweek Clone</h5>
+                            <br/>
                         </a>
                     </div>
                     <div className='col-md-2'></div>
@@ -43,6 +44,7 @@ const Project = (props) => {
                         <a href='https://optimistic-jepsen-9be5a6.netlify.app/' target="_blank">
                             <img src={ airbnb } width='600px' height='auto' /> 
                             <h5>AirBNB Newsroom Clone</h5>
+                            <br/>
                         </a>
                     </div>
                     <div className='col-md-2'></div>
@@ -56,6 +58,7 @@ const Project = (props) => {
                         <a href='https://jovial-jepsen-0d057e.netlify.app/' target="_blank">
                             <img src={ currency } width='600px' height='auto' />
                             <h5>React Currency Converter</h5>
+                            <br/>
                         </a>
                     </div>
                     <div className='col-md-2'></div>
