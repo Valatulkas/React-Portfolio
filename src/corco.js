@@ -1,5 +1,5 @@
 import React from 'react';
-import feesh from './feesh.jpeg';
+import feesh from './images/corco/feesh.jpeg';
 
 const Corco = (props) => {
     return (

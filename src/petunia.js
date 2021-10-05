@@ -1,9 +1,9 @@
 import React from 'react';
-import beach from './beach.JPG';
-import rubber from './rubber.JPG';
-import use from './use.JPG';
-import surf from './surf.JPG';
-import snow from './snow.JPG';
+import beach from './images/petunia/beach.JPG';
+import rubber from './images/petunia/rubber.JPG';
+import use from './images/petunia/use.JPG';
+import surf from './images/petunia/surf.JPG';
+import snow from './images/petunia/snow.JPG';
 
 
 const Petunia = (props) => {

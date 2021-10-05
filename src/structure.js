@@ -23,7 +23,7 @@ const Structure = (props) => {
                     <div className='col-12 col-md-3'>
                         <a className='navbar-link'>
                             <NavLink to='/sugoi'>
-                                <h4>Sugoi (japanese for 'awesome-ness')</h4>
+                                <h4>Sugoi</h4>
                             </NavLink>
                         </a>
                     </div>

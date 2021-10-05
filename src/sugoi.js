@@ -1,15 +1,19 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
-import work from './work.JPG';
-import feesh from './feesh.jpeg';
-import yapon from './yapon.JPG';
-import subway from './subway.JPG';
+import work from './images/petunia/work.JPG';
+import feesh from './images/corco/feesh.jpeg';
+import yapon from './images/yapon/yapon.JPG';
+import subway from './images/snurf/subway.JPG';
 
 const Sugoi = (props) => {
     return (
         <React.Fragment>
             <div className='container main sugoi'>
                 <div className='row py-4'>
+                    <div className='col-md-12'>
+                        <h3 className='sugoi-title'>sugoi (japanese) translates to awesome</h3>
+                        <br/>
+                    </div>
 
                     <div className='col-md-7'>
                         <img src={ work } alt='petunia1' width='300px' height='auto' />

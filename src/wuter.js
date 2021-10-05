@@ -1,5 +1,5 @@
 import React from 'react';
-import subway from './subway.JPG';
+import subway from './images/snurf/subway.JPG';
 
 const Wuter = (props) => {
     return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import yapon from './yapon.JPG';
+import yapon from './images/yapon/yapon.JPG';
 
 const Yapon = (props) => {
     return (

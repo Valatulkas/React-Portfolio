@@ -1,8 +1,8 @@
 import React from 'react';
-import airbnb from './urls/airbnb.png'
-import apple from './urls/apple.png'
-import newsweek from './urls/newsweek.png'
-import currency from './urls/currency.png'
+import airbnb from './images/urls/airbnb.png'
+import apple from './images/urls/apple.png'
+import newsweek from './images/urls/newsweek.png'
+import currency from './images/urls/currency.png'
 
 const Project = (props) => {
     return (
