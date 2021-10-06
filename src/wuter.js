@@ -5,7 +5,7 @@ const Wuter = (props) => {
     return (
         <React.Fragment>
             <div className='container main'>
-                <div className='row'>
+                <div className='row my-3'>
                     <div className='col-md-1'></div>
                     <div className='col-md-8'>
                         <img src={ subway } alt="subway" width='500px' height='auto' />

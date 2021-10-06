@@ -12,13 +12,15 @@ const Petunia = (props) => {
             <div className='container main'>
                 <div className='row'>
                     <div className='col-md-1'></div>
-                    <div className='col-md-8'>
+                    <div className='col-md-8 mt-3'>
                         <img src={ beach } alt="petunia1" width='500px' height='auto' />
                     </div>
                     <div className='col-md-2'>
                         <h5>beatiful starting point</h5>
                     </div>
                     <div className='col-md-1'></div>
+
+                    <hr className='my-3' />
 
                     <div className='col-md-1'></div>
                     <div className='col-md-8'>
@@ -30,6 +32,8 @@ const Petunia = (props) => {
                     </div>
                     <div className='col-md-1'></div>
 
+                    <hr className='my-3' />
+
                     <div className='col-md-1'></div>
                     <div className='col-md-8'>
                         <img src={ use } alt='petunia3' width='500px' height='auto' />
@@ -39,6 +43,8 @@ const Petunia = (props) => {
                     </div>
                     <div className='col-md-1'></div>
 
+                    <hr className='my-3' />
+
                     <div className='col-md-1'></div>
                     <div className='col-md-8'>
                         <img src={ snow } alt="petunia4" width='500px' height='auto' />
@@ -47,10 +53,11 @@ const Petunia = (props) => {
                         <h5>enjoy like this</h5>
                     </div>
                     <div className='col-md-1'></div>
-                    <div className='col-md-1'></div>
+
+                    <hr className='my-3' />
 
                     <div className='col-md-1'></div>
-                    <div className='col-md-8'>
+                    <div className='col-md-8 mb-3'>
                         <img src={ surf } alt="petunia5" width='500px' height='auto' />
                     </div>
                     <div className='col-md-2'>

@@ -1,5 +1,6 @@
 nav, footer, .main {
   text-align: center;
+  align-content: center;
 }
 nav, footer {
   background-color: rgb(120, 99, 131);
@@ -27,3 +28,7 @@ a:hover {
   color: indigo;
 }
 
+#forecast {
+  display:flex; 
+  justify-content:center; 
+}
