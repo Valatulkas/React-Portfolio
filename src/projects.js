@@ -1,8 +1,9 @@
 import React from 'react';
-import airbnb from './images/urls/airbnb.png'
-import apple from './images/urls/apple.png'
-import newsweek from './images/urls/newsweek.png'
-import currency from './images/urls/currency.png'
+import airbnb from './images/urls/airbnb.png';
+import apple from './images/urls/apple.png';
+import newsweek from './images/urls/newsweek.png';
+import currency from './images/urls/currency.png';
+import mathgame from './images/urls/mathgame.png';
 
 const Project = (props) => {
     return (
@@ -64,6 +65,13 @@ const Project = (props) => {
                     </div>
                     <div className='col-md-2'></div>
                     <br/>
+
+                    <div className='col-md-12' id='webdev'>
+                        <a href='https://peaceful-hoover-ec2589.netlify.app/' target="_blank">
+                            <img src={ mathgame } width='388' height='auto' />
+                            <h5>Simple Math Game</h5>
+                        </a>
+                    </div>
                 </div>
             </div>
         </React.Fragment>
