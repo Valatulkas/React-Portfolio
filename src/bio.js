@@ -11,9 +11,9 @@ const Bio = (props) => {
                     </div>
                     <div className='col-6'>
                         <p>Aspiring full stack web developer</p>
-                        <p>Finishing full stack bootcamp through Altcademy</p>
-                        <p>Aiming to assist with evolving environmental movements</p>
-                        <p>Either in the food justice or renewable energy production and distribution</p>
+                        <p>Finishing Altcademy full strack bootcamp</p>
+                        <p>Aiming to progress local and global environmental movements</p>
+                        <p>Specifically the production and distribution of slow foods and renewable energies</p>
                     </div>
                 </div>
             </div>
