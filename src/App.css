@@ -25,6 +25,10 @@ nav, footer {
   top: 43%;
   font-family: 'Kanit', sans-serif;
 }
+.project-title {
+  font-family: sans-serif;
+  font-style: italic;
+}
 .sugoi-title {
   font-style: italic;
 }
@@ -41,8 +45,17 @@ a:hover {
   text-decoration: none;
   color: indigo;
 }
+#webdev {
+  border-style: solid;
+  border-radius: 10px;
+  border-color:rgb(56, 116, 50);
+}
 
 #forecast {
   display:flex; 
   justify-content:center; 
+}
+
+hr {
+  width: 300px;
 }
