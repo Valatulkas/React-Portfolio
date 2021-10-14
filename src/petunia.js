@@ -4,6 +4,8 @@ import rubber from './images/petunia/rubber.JPG';
 import use from './images/petunia/use.JPG';
 import surf from './images/petunia/surf.JPG';
 import snow from './images/petunia/snow.JPG';
+import lift from './images/petunia/lift.JPG';
+import sunset from './images/petunia/sunset.JPG';
 
 
 const Petunia = (props) => {
@@ -15,7 +17,7 @@ const Petunia = (props) => {
                     <div className='col-md-8 mt-3'>
                         <img src={ beach } alt="petunia1" width='500px' height='auto' />
                     </div>
-                    <div className='col-md-2'>
+                    <div className='col-md-2 mt-3'>
                         <h5>beatiful starting point</h5>
                     </div>
                     <div className='col-md-1'></div>
@@ -47,10 +49,32 @@ const Petunia = (props) => {
 
                     <div className='col-md-1'></div>
                     <div className='col-md-8'>
+                        <img src={ lift } alt='petunia6' width='500px' height='auto' />
+                    </div>
+                    <div className='col-md-2'>
+                        <h5>not without the occassional roadblock</h5>
+                    </div>
+                    <div className='col-md-1'></div>
+
+                    <hr className='my-3' />
+
+                    <div className='col-md-1'></div>
+                    <div className='col-md-8'>
                         <img src={ snow } alt="petunia4" width='500px' height='auto' />
                     </div>
                     <div className='col-md-2'>
                         <h5>enjoy like this</h5>
+                    </div>
+                    <div className='col-md-1'></div>
+
+                    <hr className='my-3' />
+
+                    <div className='col-md-1'></div>
+                    <div className='col-md-8'>
+                        <img src={ sunset } alt="petunia5" width='500px' height='auto' />
+                    </div>
+                    <div className='col-md-2'>
+                        <h5>and like this</h5>
                     </div>
                     <div className='col-md-1'></div>
 
