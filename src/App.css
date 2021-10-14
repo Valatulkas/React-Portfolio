@@ -41,7 +41,7 @@ a:hover {
   transform: scale(1.3);
   text-transform: uppercase;
 }
-#webdev-fun a {
+#webdev-fun a, #webdev a {
   text-decoration: none;
   color: indigo;
 }
@@ -56,6 +56,3 @@ a:hover {
   justify-content:center; 
 }
 
-hr {
-  width: 300px;
-}
