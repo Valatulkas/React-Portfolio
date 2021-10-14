@@ -18,7 +18,7 @@ const Sugoi = (props) => {
                     <div className='col-md-7'>
                         <img src={ work } alt='petunia1' width='300px' height='auto' />
                     </div>
-                    <div className='col-md-5' id='webdev'>
+                    <div className='col-md-5' id='webdev-fun'>
                         <a>
                             <Link to='./petunia'>
                                 <h4>Trials and tribulations of restoring an AWD van</h4>
@@ -31,7 +31,7 @@ const Sugoi = (props) => {
                     <div className='col-md-7'>
                         <img src={ feesh } alt='feesh' width='300px' height='auto' />
                     </div>
-                    <div className='col-md-5' id='webdev'>
+                    <div className='col-md-5' id='webdev-fun'>
                         <a>
                         <Link to='./corco'>
                             <h4>watery plains</h4>
@@ -44,7 +44,7 @@ const Sugoi = (props) => {
                     <div className='col-md-7'>
                         <img src={ yapon } alt='feesh' width='300px' height='auto' />
                     </div>
-                    <div className='col-md-5' id='webdev'>
+                    <div className='col-md-5' id='webdev-fun'>
                         <a>
                         <Link to='./yapon'>
                             <h4>hokkaido hospitality</h4>
@@ -57,7 +57,7 @@ const Sugoi = (props) => {
                     <div className='col-md-7'>
                         <img src={ subway } alt='feesh' width='300px' height='auto' />
                     </div>
-                    <div className='col-md-5' id='webdev'>
+                    <div className='col-md-5' id='webdev-fun'>
                         <a>
                         <Link to='./wuter'>
                             <h4>subway surfin</h4>
