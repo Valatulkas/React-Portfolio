@@ -9,13 +9,10 @@ const Project = (props) => {
     return (
         <React.Fragment>
             <div className='container main'>
+                <div className='row' id='banner'>
+                        <h1>WEBDEV PROJECTS</h1>
+                </div>
                 <div className='row'>
-                    <div className='col-12'>
-                        <h2>
-                            WebDev Projects
-                        </h2>
-                        <hr/>
-                    </div>
                     <div className='col-12'>
                         <h4>HTML - CSS3 Clone Sites</h4>
                     </div>
@@ -64,6 +61,9 @@ const Project = (props) => {
                             <h5>Simple Math Game</h5>
                         </a>
                     </div>
+                </div>
+                <div className='row' id='banner1'>
+                        <h1>WEBDEV PROJECTS</h1>
                 </div>
             </div>
         </React.Fragment>
