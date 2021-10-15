@@ -25,13 +25,6 @@ nav, footer {
   top: 43%;
   font-family: 'Kanit', sans-serif;
 }
-.project-title {
-  font-family: sans-serif;
-  font-style: italic;
-}
-.sugoi-title {
-  font-style: italic;
-}
 a {
   text-decoration: none;
   color: antiquewhite;
@@ -43,7 +36,8 @@ a:hover {
 }
 #webdev-fun a, #webdev a {
   text-decoration: none;
-  color: indigo;
+  color: rgb(172, 38, 8);
+  font-family: 'Cuprum', sans-serif;
 }
 #bio {
   background-repeat: no-repeat;
@@ -58,7 +52,7 @@ a:hover {
   bottom: 38%;
   border-radius: 7%;
 }
-#bio1 h4, #synopsis {
+#bio1 h4, #synopsis, .sugoi-title, .project-title {
   color: rgb(224, 52, 13);
   font-family: 'Cuprum', sans-serif;
 }

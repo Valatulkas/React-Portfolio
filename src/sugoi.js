@@ -11,7 +11,7 @@ const Sugoi = (props) => {
             <div className='container main sugoi'>
                 <div className='row py-4'>
                     <div className='col-md-12'>
-                        <h3 className='sugoi-title mb-5'>sugoi (japanese) translates to awesome</h3>
+                        <h3 className='sugoi-title mb-5'>**sugoi (japanese) translates to awesome** <br/> collection of personal projects</h3>
                     </div>
 
                     <div className='col-md-7'>
