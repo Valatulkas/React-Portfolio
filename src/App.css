@@ -53,13 +53,14 @@ a:hover {
 }
 #bio1 {
   position: absolute;
-  background-color: rgba(235, 243, 252, 0.699);
-  right: 19%;
+  background-color: rgba(243, 232, 249, 0.699);
+  right: 24.5%;
   bottom: 38%;
   border-radius: 7%;
 }
-#bio1 h4 {
-  color: rgb(6, 6, 109);
+#bio1 h4, #synopsis {
+  color: rgb(224, 52, 13);
+  font-family: 'Cuprum', sans-serif;
 }
 #forecast {
   display:flex; 
