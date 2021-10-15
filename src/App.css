@@ -45,12 +45,6 @@ a:hover {
   text-decoration: none;
   color: indigo;
 }
-#webdev {
-  border-style: solid;
-  border-width: thin;
-  border-radius: 10px;
-  border-color:rgb(56, 116, 50);
-}
 
 #forecast {
   display:flex; 

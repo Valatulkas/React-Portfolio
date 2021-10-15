@@ -2,8 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom'
 import work from './images/petunia/work.JPG';
 import feesh from './images/corco/feesh.jpeg';
-import yapon from './images/yapon/yapon.JPG';
-import subway from './images/snurf/subway.JPG';
+import snowy from './images/yapon/snowy.JPG';
+import sneaky from './images/snurf/sneaky.JPG';
 
 const Sugoi = (props) => {
     return (
@@ -12,21 +12,7 @@ const Sugoi = (props) => {
                 <div className='row py-4'>
                     <div className='col-md-12'>
                         <h3 className='sugoi-title mb-5'>sugoi (japanese) translates to awesome</h3>
-                        
                     </div>
-
-                    <div className='col-md-7'>
-                        <img src={ work } alt='petunia1' width='300px' height='auto' />
-                    </div>
-                    <div className='col-md-5' id='webdev-fun'>
-                        <a>
-                            <Link to='./petunia'>
-                                <h4>Trials and tribulations of restoring an AWD van</h4>
-                            </Link>
-                        </a>
-                    </div>
-                    
-                    <hr className='my-3' />
 
                     <div className='col-md-7'>
                         <img src={ feesh } alt='feesh' width='300px' height='auto' />
@@ -42,7 +28,7 @@ const Sugoi = (props) => {
                     <hr className='my-3' />
                 
                     <div className='col-md-7'>
-                        <img src={ yapon } alt='feesh' width='300px' height='auto' />
+                        <img src={ snowy } alt='snowy-japan' width='300px' height='auto' />
                     </div>
                     <div className='col-md-5' id='webdev-fun'>
                         <a>
@@ -53,14 +39,27 @@ const Sugoi = (props) => {
                     </div>
 
                     <hr className='my-3' />
+
+                    <div className='col-md-7'>
+                        <img src={ work } alt='petunia1' width='300px' height='auto' />
+                    </div>
+                    <div className='col-md-5' id='webdev-fun'>
+                        <a>
+                            <Link to='./petunia'>
+                                <h4>Trials and tribulations of restoring an AWD van</h4>
+                            </Link>
+                        </a>
+                    </div>
+                    
+                    <hr className='my-3' />
                     
                     <div className='col-md-7'>
-                        <img src={ subway } alt='feesh' width='300px' height='auto' />
+                        <img src={ sneaky } alt='barrel' width='300px' height='auto' />
                     </div>
                     <div className='col-md-5' id='webdev-fun'>
                         <a>
                         <Link to='./wuter'>
-                            <h4>subway surfin</h4>
+                            <h4>sneaky</h4>
                         </Link>
                         </a>
                     </div>
