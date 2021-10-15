@@ -45,7 +45,22 @@ a:hover {
   text-decoration: none;
   color: indigo;
 }
-
+#bio {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  border-radius: 5%;
+}
+#bio1 {
+  position: absolute;
+  background-color: rgba(235, 243, 252, 0.699);
+  right: 19%;
+  bottom: 38%;
+  border-radius: 7%;
+}
+#bio1 h4 {
+  color: rgb(6, 6, 109);
+}
 #forecast {
   display:flex; 
   justify-content:center; 
