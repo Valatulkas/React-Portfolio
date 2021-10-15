@@ -107,7 +107,7 @@ const Yapon = (props) => {
                         <img src={ tempura } alt="yapon1" width='500px' height='auto' />
                     </div>
                     <div className='col-md-2 my-3'>
-                        <h5>ramen back alley in Tokyo</h5>
+                        <h5>Tokyo's culinary back alley</h5>
                     </div>
                     <div className='col-md-1'></div>
 
