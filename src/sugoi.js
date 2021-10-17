@@ -17,8 +17,8 @@ const Sugoi = (props) => {
                     <div className='col-md-6'>
                         <div id='webdev-fun'>
                             <a>
-                                <img src={ feesh } alt='feesh' width='400px' height='auto' />
                                 <Link to='./corco'>
+                                    <img src={ feesh } alt='feesh' width='400px' height='auto' />
                                     <h4>watery plains</h4>
                                 </Link>
                             </a>
@@ -28,8 +28,8 @@ const Sugoi = (props) => {
                     <div className='col-md-6'>
                         <div id='webdev-fun'>
                             <a>
-                                <img src={ snowy } alt='snowy-japan' width='400px' height='auto' />
                                 <Link to='./yapon'>
+                                    <img src={ snowy } alt='snowy-japan' width='400px' height='auto' />
                                     <h4>hokkaido hospitality</h4>
                                 </Link>
                             </a>
@@ -41,8 +41,8 @@ const Sugoi = (props) => {
                     <div className='col-md-6'>
                         <div id='webdev-fun'>
                             <a>
-                                <img src={ work } alt='petunia1' width='400px' height='auto' />
                                 <Link to='./petunia'>
+                                    <img src={ work } alt='petunia1' width='400px' height='auto' />
                                     <h4>Trials and tribulations of restoring an AWD van</h4>
                                 </Link>
                             </a>
@@ -53,8 +53,8 @@ const Sugoi = (props) => {
                     <div className='col-md-6 pt-5'>
                         <div id='webdev-fun'>
                             <a>
-                                <img src={ sneaky } alt='barrel' width='400px' height='auto' />
                                 <Link to='./wuter'>
+                                    <img src={ sneaky } alt='barrel' width='400px' height='auto' />
                                     <h4>sneaky</h4>
                                 </Link>
                             </a>

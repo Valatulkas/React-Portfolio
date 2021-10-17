@@ -45,16 +45,13 @@ a:hover {
   height: 790px;
   border-radius: 5%;
 }
-#bio1 {
-  position: absolute;
-  background-color: rgba(243, 232, 249, 0.699);
-  right: 25.8%;
-  bottom: 37%;
-  border-radius: 7%;
-}
-#bio1 h4, #synopsis, .sugoi-title, .project-title {
-  color: rgb(224, 52, 13);
+#bio1 h1, #bio1 h2, .sugoi-title, .project-title {
+  color: rgb(220, 250, 252);
   font-family: 'Cuprum', sans-serif;
+}
+.sugoi-title, .project-title {
+  font-family: 'Cuprum', sans-serif;
+  color: rgb(172, 38, 8);
 }
 #forecast {
   display:flex; 

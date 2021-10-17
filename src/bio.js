@@ -8,18 +8,19 @@ const Bio = (props) => {
                 <div className='row'>
                     <div className='col-0 col-md-1'></div>
                     <div className='col-12 col-md-10' id='bio' style={{backgroundImage: `url(${ feens })`}}>
-                        <div className='bio1-parent'>
-                            <div id='bio1'>
-                                <h4>aspiring full stack developer</h4>
+                            <div id='bio1' className='mt-5 pt-5'>
+                                <h1>aspiring full stack developer</h1>
                                 <hr/>
-                                <h4>aiming to progress environmental agendas</h4>
+                                <h1>aiming to progress environmental agendas</h1>
                                 <hr/>
-                                <h4>specifically slow food and renewable energies</h4>
+                                <h1>specifically slow food and renewable energies</h1>
+                                <hr/>
+                                <h1>surfin in the NorthEastern USA in the meantime</h1>
+                                <hr/>
+                                <h2>(might find me in the waters of Long Island pending the below..)</h2>
                             </div>
-                        </div>
                     </div>
                     <div className='col-0 col-md-1'></div>
-                    <h3 id='synopsis' className='mt-5'>surfin in the NorthEastern USA in the meantime... might find me in waters off the Long Island coast</h3>
                 </div>
             </div>
         </React.Fragment>
