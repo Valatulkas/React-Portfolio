@@ -1,5 +1,5 @@
 import React from 'react';
-import subway from './images/snurf/subway.JPG'
+import feens from './images/snurf/feens.jpg'
 
 const Bio = (props) => {
     return (
@@ -7,13 +7,13 @@ const Bio = (props) => {
             <div className='container main mt-4'>
                 <div className='row'>
                     <div className='col-0 col-md-1'></div>
-                    <div className='col-12 col-md-10' id='bio' style={{backgroundImage: `url(${ subway })`}}>
+                    <div className='col-12 col-md-10' id='bio' style={{backgroundImage: `url(${ feens })`}}>
                         <div className='bio1-parent'>
                             <div id='bio1'>
                                 <h4>aspiring full stack developer</h4>
-                                <br/>
+                                <hr/>
                                 <h4>aiming to progress environmental agendas</h4>
-                                <br/>
+                                <hr/>
                                 <h4>specifically slow food and renewable energies</h4>
                             </div>
                         </div>
