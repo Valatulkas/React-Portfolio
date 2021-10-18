@@ -2,12 +2,13 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
 import Structure from './structure';
 import IntroDisplay from './photo-portion';
-import Project from './projects';
 import Petunia from './petunia';
 import Corco from './corco';
 import Wuter from './wuter';
 import Yapon from './yapon';
 import Sugoi from './sugoi';
+import Htmlprojects from './htmlprojects';
+import Jsprojects from './jsprojects';
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       <Structure>
 
         <Route path='/' exact component={IntroDisplay} />
-        <Route path='/projects' component={Project} />
+        <Route path='/htmlprojects' component={Htmlprojects} />
+        <Route path='/jsprojects' component={Jsprojects} />
         <Route path='/petunia' component={Petunia} />
         <Route path='/corco' component={Corco} />
         <Route path='/wuter' component={Wuter} />

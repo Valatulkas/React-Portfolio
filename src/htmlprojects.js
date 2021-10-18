@@ -2,20 +2,15 @@ import React from 'react';
 import airbnb from './images/urls/airbnb.png';
 import apple from './images/urls/apple.png';
 import newsweek from './images/urls/newsweek.png';
-import currency from './images/urls/currency.png';
-import mathgame from './images/urls/mathgame.png';
 
-const Project = (props) => {
+const Htmlprojects = (props) => {
     return (
         <React.Fragment>
             <div className='container main'>
-                <div className='row' id='banner'>
-                        <h1>WEBDEV PROJECTS</h1>
-                </div>
                 <div className='row'>
                     <div className='col-0 col-md-2'></div>
                     <div className='col-12 col-md-8 my-4'>
-                        <h2 className='project-title'><b>HTML - CSS3 Clone Sites</b></h2>
+                        <h2 className='project-title'><b>Static Clone Sites</b></h2>
                     </div>
                     <div className='col-0 col-md-2'></div>
 
@@ -48,38 +43,10 @@ const Project = (props) => {
                         </a>
                     </div>
                     <div className='col-0 col-md-2'></div>
-
-                    <hr className='my-5'/>
-
-                    <div className='col-12'>
-                        <h2 className='project-title pb-3'><b>JS - React.js</b></h2>
-                    </div>
-
-                    <div className='col-0 col-md-2'></div>
-                    <div className='col-12 col-md-8 pt-4' id='webdev'>
-                        <a href='https://jovial-jepsen-0d057e.netlify.app/' target="_blank">
-                            <img src={ currency } width='688' height='auto' />
-                            <h3>--- React Currency Converter ---</h3>
-                            <br/>
-                        </a>
-                    </div>
-                    <div className='col-0 col-md-2'></div>
-
-                    <div className='col-0 col-md-2'></div>
-                    <div className='col-12 col-md-8 pt-4 my-3' id='webdev'>
-                        <a href='https://peaceful-hoover-ec2589.netlify.app/' target="_blank">
-                            <img src={ mathgame } width='388' height='auto' />
-                            <h3>--- Simple Math Game ---</h3>
-                        </a>
-                    </div>
-                    <div className='col-0 col-md-2'></div>
-                </div>
-                <div className='row' id='banner1'>
-                        <h1>WEBDEV PROJECTS</h1>
                 </div>
             </div>
         </React.Fragment>
     )
 }
 
-export default Project
+export default Htmlprojects

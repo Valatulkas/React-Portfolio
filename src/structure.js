@@ -14,11 +14,20 @@ const Structure = (props) => {
                         </a>
                     </div>
                     <div className='col-12 col-md-3'>
-                        <a className='navbar-link'>
-                            <NavLink to='/projects'>
-                                <h4>WebDev</h4>
-                            </NavLink>
-                        </a>
+                        <a className='dropdown'><h4>WebDev ~</h4></a>
+                           
+                            <ul className='dropdown1'>
+                                <li>
+                                    <NavLink to='/htmlprojects'>
+                                        <h4>HTML - CSS</h4>
+                                    </NavLink>
+                                </li>
+                                <li>
+                                    <NavLink to='/jsprojects'>
+                                        <h4>JS - React</h4>
+                                    </NavLink>
+                                </li>
+                            </ul>
                     </div>
                     <div className='col-12 col-md-3'>
                         <a className='navbar-link'>
