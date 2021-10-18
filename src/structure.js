@@ -2,33 +2,35 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 const Structure = (props) => {
+    
     return (
         <React.Fragment>
             <nav className='navbar navbar-expand-lg'>
                 <div className='container'>
-                    <div className='col-12 col-md-6'>
+                    <div className='col-12 col-md-5'>
                         <a className='navbar-link'>
                             <NavLink to='/'>
                                 <h1>JFerg</h1>
                             </NavLink>
                         </a>
                     </div>
-                    <div className='col-12 col-md-3'>
-                        <a className='dropdown'><h4>WebDev ~</h4></a>
-                           
-                            <ul className='dropdown1'>
-                                <li>
-                                    <NavLink to='/htmlprojects'>
-                                        <h4>HTML - CSS</h4>
-                                    </NavLink>
-                                </li>
-                                <li>
-                                    <NavLink to='/jsprojects'>
-                                        <h4>JS - React</h4>
-                                    </NavLink>
-                                </li>
-                            </ul>
+
+                    <div className='col-12 col-md-2'>
+                        <a className='navbar-link'>
+                            <NavLink to='/htmlprojects'>
+                                <h4>HTML - CSS</h4>
+                            </NavLink>
+                        </a>
                     </div>
+
+                    <div className='col-12 col-md-2'>
+                        <a className='navbar-link'>
+                            <NavLink to='/jsprojects'>
+                                <h4>JS - React</h4>
+                            </NavLink>
+                        </a>
+                    </div>
+                    
                     <div className='col-12 col-md-3'>
                         <a className='navbar-link'>
                             <NavLink to='/sugoi'>

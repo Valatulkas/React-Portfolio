@@ -8,7 +8,7 @@ const Jsprojects = (props) => {
             <div className='container main'>
                 <div className='row'>
                     <div className='col-12'>
-                        <h2 className='project-title pb-3'><b>JS - React.js</b></h2>
+                        <h2 className='project-title my-4'><b>JS - React.js</b></h2>
                     </div>
 
                     <div className='col-0 col-md-2'></div>

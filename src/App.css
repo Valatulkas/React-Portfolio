@@ -43,18 +43,3 @@ a:hover {
   display:flex; 
   justify-content:center; 
 }
-.dropdown {
-  position: relative;
-}
-ul.dropdown1 {
-  min-width: 100%;
-  background: #e9a3f7;
-  display: none;
-  position: absolute;
-}
-.dropdown:hover .dropdown1 {
-  display: block; 
-}
-.dropdown ul.dropdown1 li {
-  display: block;
-}
