@@ -47,17 +47,17 @@ const Structure = (props) => {
                 <div className='container'>
                     <div className='row'>
                         <div className='col-12 col-md-4'>
-                            <a href='https://github.com/Valatulkas'>
+                            <a href='https://github.com/Valatulkas' target="_blank">
                                 <h4 className='mb-4'>github</h4>
                             </a>
                         </div>
                         <div className='col-12 col-md-4'>
-                            <a href="mailto:jfergie93@gmail.com">
+                            <a href="mailto:jfergie93@gmail.com" target="_blank">
                                 <h4 className='mb-4'>email</h4>
                             </a>
                         </div>
                         <div className='col-12 col-md-4'>
-                            <a href='https://www.chess.com'>
+                            <a href='https://www.chess.com' target="_blank">
                                 <h4 className='mb-4'>chess</h4>
                             </a>
                         </div>
