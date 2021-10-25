@@ -22,7 +22,7 @@ a:hover {
 }
 #webdev-fun a, #webdev a {
   text-decoration: none;
-  color: rgb(172, 38, 8);
+  color: rgb(38, 5, 100);
   font-family: 'Cuprum', sans-serif;
 }
 #bio {
@@ -37,7 +37,7 @@ a:hover {
 }
 .sugoi-title, .project-title {
   font-family: 'Cuprum', sans-serif;
-  color: rgb(172, 38, 8);
+  color: rgb(38, 5, 100);
 }
 #forecast {
   display:flex; 

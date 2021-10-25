@@ -8,14 +8,15 @@ const Jsprojects = (props) => {
             <div className='container main'>
                 <div className='row'>
                     <div className='col-12'>
-                        <h2 className='project-title my-4'><b>JS - React.js</b></h2>
+                    <br/>
+                        <h1 className='project-title my-4'><b>JS - React.js</b></h1>
                     </div>
 
                     <div className='col-0 col-md-2'></div>
-                    <div className='col-12 col-md-8 pt-4' id='webdev'>
+                    <div className='col-12 col-md-8 pt-2' id='webdev'>
                         <a href='https://currency-exchange-react-app-jf.herokuapp.com/' target="_blank">
                             <img src={ currency } width='688' height='auto' />
-                            <h3>--- React Currency Converter ---</h3>
+                            <h2 id='reveal'>React Currency Converter</h2>
                             <br/>
                         </a>
                     </div>
@@ -25,7 +26,7 @@ const Jsprojects = (props) => {
                     <div className='col-12 col-md-8 pt-4 my-3' id='webdev'>
                         <a href='https://peaceful-hoover-ec2589.netlify.app/' target="_blank">
                             <img src={ mathgame } width='388' height='auto' />
-                            <h3>--- Simple Math Game ---</h3>
+                            <h2 id='reveal'>Simple Math Game</h2>
                         </a>
                     </div>
                     <div className='col-0 col-md-2'></div>
