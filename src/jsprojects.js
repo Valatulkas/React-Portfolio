@@ -13,7 +13,7 @@ const Jsprojects = (props) => {
 
                     <div className='col-0 col-md-2'></div>
                     <div className='col-12 col-md-8 pt-4' id='webdev'>
-                        <a href='https://jovial-jepsen-0d057e.netlify.app/' target="_blank">
+                        <a href='https://currency-exchange-react-app-jf.herokuapp.com/' target="_blank">
                             <img src={ currency } width='688' height='auto' />
                             <h3>--- React Currency Converter ---</h3>
                             <br/>
