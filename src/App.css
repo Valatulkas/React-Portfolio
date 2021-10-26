@@ -28,12 +28,21 @@ a:hover {
 #bio {
   background-repeat: no-repeat;
   background-size: cover;
-  height: 800px;
   border-radius: 5%;
+  height: 830px;
 }
-#bio1 h1, #bio1 h2, .sugoi-title, .project-title {
+.sugoi-title, .project-title {
   color: rgb(220, 250, 252);
   font-family: 'Cuprum', sans-serif;
+}
+#bio1 {
+  font-family: 'Cuprum', sans-serif;
+  color: rgb(70, 19, 77);
+  width: 80%;
+}
+#bio1 {
+  background-color: rgba(244, 232, 248, 0.345);
+  border-radius: 5%;
 }
 .sugoi-title, .project-title {
   font-family: 'Cuprum', sans-serif;
