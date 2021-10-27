@@ -38,7 +38,7 @@ a:hover {
 #bio1 {
   font-family: 'Cuprum', sans-serif;
   color: rgb(70, 19, 77);
-  width: 80%;
+  width: auto;
 }
 #bio1 {
   background-color: rgba(244, 232, 248, 0.345);
