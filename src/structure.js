@@ -30,6 +30,14 @@ const Structure = (props) => {
                             </NavLink>
                         </a>
                     </div>
+
+                    <div className='col-12 col-md-2'>
+                        <a className='navbar-link'>
+                            <NavLink to='/railsprojects'>
+                                <h4>Rails</h4>
+                            </NavLink>
+                        </a>
+                    </div>
                     
                     <div className='col-12 col-md-3'>
                         <a className='navbar-link'>
