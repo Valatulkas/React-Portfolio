@@ -4,7 +4,7 @@ import me from './images/me.png'
 const Bio = (props) => {
     return (
         <React.Fragment>
-            <div className='container main mt-4'>
+            <div className='container main mt-5 pt-4'>
                 <div className='row' id='bio'>
                     <div className='col-0 col-md-1'></div>
                     <div className='col-12 col-md-4 mt-4' id='bio'>
