@@ -25,24 +25,9 @@ a:hover {
   color: rgb(38, 5, 100);
   font-family: 'Cuprum', sans-serif;
 }
-#bio {
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 5%;
-  height: 830px;
-}
 .sugoi-title, .project-title {
   color: rgb(220, 250, 252);
   font-family: 'Cuprum', sans-serif;
-}
-#bio1 {
-  font-family: 'Cuprum', sans-serif;
-  color: rgb(70, 19, 77);
-  width: auto;
-}
-#bio1 {
-  background-color: rgba(244, 232, 248, 0.345);
-  border-radius: 5%;
 }
 .sugoi-title, .project-title {
   font-family: 'Cuprum', sans-serif;
@@ -51,4 +36,15 @@ a:hover {
 #forecast {
   display:flex; 
   justify-content:center; 
+}
+.label {
+  color: rgb(55, 192, 169);
+}
+img {
+  border-radius: 8%;
+}
+#me {
+  border-radius: 23%;
+  border-style: solid;
+  border-color: rgb(36, 118, 150);
 }

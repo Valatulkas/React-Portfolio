@@ -7,10 +7,10 @@ const Structure = (props) => {
         <React.Fragment>
             <nav className='navbar navbar-expand-lg'>
                 <div className='container'>
-                    <div className='col-12 col-md-5'>
+                    <div className='col-12 col-md-3'>
                         <a className='navbar-link'>
                             <NavLink to='/'>
-                                <h1>JFerg</h1>
+                                <h1 className='label'>JFerg</h1>
                             </NavLink>
                         </a>
                     </div>
@@ -18,7 +18,7 @@ const Structure = (props) => {
                     <div className='col-12 col-md-2'>
                         <a className='navbar-link'>
                             <NavLink to='/htmlprojects'>
-                                <h4>HTML - CSS</h4>
+                                <h4>~ HTML-CSS</h4>
                             </NavLink>
                         </a>
                     </div>
@@ -26,7 +26,7 @@ const Structure = (props) => {
                     <div className='col-12 col-md-2'>
                         <a className='navbar-link'>
                             <NavLink to='/jsprojects'>
-                                <h4>JS - React</h4>
+                                <h4>JS-React</h4>
                             </NavLink>
                         </a>
                     </div>
@@ -34,7 +34,7 @@ const Structure = (props) => {
                     <div className='col-12 col-md-2'>
                         <a className='navbar-link'>
                             <NavLink to='/railsprojects'>
-                                <h4>Rails</h4>
+                                <h4>Rails ~</h4>
                             </NavLink>
                         </a>
                     </div>
@@ -42,7 +42,7 @@ const Structure = (props) => {
                     <div className='col-12 col-md-3'>
                         <a className='navbar-link'>
                             <NavLink to='/sugoi'>
-                                <h4>Sugoi</h4>
+                                <h2 className='label'>Sugoi</h2>
                             </NavLink>
                         </a>
                     </div>
