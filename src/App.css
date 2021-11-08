@@ -3,8 +3,14 @@ nav, footer, .main {
   align-content: center;
 }
 nav, footer {
-  background-color: rgb(180, 148, 197);
+  background-color: rgba(240, 215, 252, 0.808);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav {
+  border-bottom: 1pt solid #1233f0;
+}
+footer {
+  border-top: 1pt solid #1233f0;
 }
 #root {
   background-color: rgb(243, 232, 249);
@@ -13,7 +19,7 @@ nav, footer {
 }
 a {
   text-decoration: none;
-  color: antiquewhite;
+  color: rgb(59, 5, 113);
 }
 a:hover {
   color: rgb(52, 66, 194);
@@ -25,8 +31,12 @@ a:hover {
   color: rgb(38, 5, 100);
   font-family: 'Cuprum', sans-serif;
 }
+#webdev-fun a:hover, #webdev a:hover {
+  color: rgb(175, 29, 29);
+  transform: scale(2);
+}
 .sugoi-title, .project-title {
-  color: rgb(220, 250, 252);
+  color: rgb(98, 79, 181);
   font-family: 'Cuprum', sans-serif;
 }
 .sugoi-title, .project-title {
@@ -38,11 +48,11 @@ a:hover {
   justify-content:center; 
 }
 .label {
-  color: rgb(0, 0, 0);
+  color: rgb(59, 5, 113);
   font-family: 'Cuprum', sans-serif;
 }
 img {
-  border-radius: 13%;
+  border-radius: 8%;
   border-style: solid;
   border-width: thin;
   border-color: rgb(42, 161, 207);

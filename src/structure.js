@@ -18,7 +18,7 @@ const Structure = (props) => {
                     <div className='col-12 col-md-2'>
                         <a className='navbar-link'>
                             <NavLink to='/htmlprojects'>
-                                <h4>~ HTML-CSS</h4>
+                                <h4>HTML-CSS</h4>
                             </NavLink>
                         </a>
                     </div>
@@ -34,7 +34,7 @@ const Structure = (props) => {
                     <div className='col-12 col-md-2'>
                         <a className='navbar-link'>
                             <NavLink to='/railsprojects'>
-                                <h4>Rails ~</h4>
+                                <h4>Rails</h4>
                             </NavLink>
                         </a>
                     </div>
@@ -53,7 +53,7 @@ const Structure = (props) => {
             </div>
             <footer className='footer'>
                 <div className='container'>
-                    <div className='row'>
+                    <div className='row mt-3'>
                         <div className='col-12 col-md-4'>
                             <a href='https://github.com/Valatulkas' target="_blank">
                                 <h4 className='mb-4'>github</h4>
