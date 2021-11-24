@@ -9,12 +9,12 @@ const Sugoi = (props) => {
     return (
         <React.Fragment>
             <div className='container main sugoi'>
-                <div className='row py-4'>
+                <div className='row'>
                     <div className='col-md-12'>
-                        <h3 className='sugoi-title mb-5'>~ sugoi (japanese) translates to awesome ~<br/>collection of personal projects</h3>
+                        <h3 className='sugoi-title mb-4'>~ sugoi (japanese) translates to awesome ~<br/>collection of personal projects</h3>
                     </div>
 
-                    <div className='col-md-6'>
+                    <div className='col-md-12 mb-4 py-3' id='borders'>
                         <div id='webdev-fun'>
                             <a>
                                 <Link to='./corco'>
@@ -25,7 +25,7 @@ const Sugoi = (props) => {
                         </div>
                     </div>
                 
-                    <div className='col-md-6'>
+                    <div className='col-md-12 my-4 py-3' id='borders'>
                         <div id='webdev-fun'>
                             <a>
                                 <Link to='./yapon'>
@@ -36,9 +36,8 @@ const Sugoi = (props) => {
                         </div>
                     </div>
 
-                    <hr className='my-5'/>
 
-                    <div className='col-md-6'>
+                    <div className='col-md-12 my-4 py-3' id='borders'>
                         <div id='webdev-fun'>
                             <a>
                                 <Link to='./petunia'>
@@ -50,8 +49,8 @@ const Sugoi = (props) => {
                     </div>
                 
                     
-                    <div className='col-md-6 pt-5'>
-                        <div id='webdev-fun'>
+                    <div className='col-md-12 my-4 py-3' id='borders'>
+                        <div id='webdev-fun'>   
                             <a>
                                 <Link to='./wuter'>
                                     <img src={ sneaky } alt='barrel' width='400px' height='auto' />

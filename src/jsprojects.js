@@ -13,9 +13,9 @@ const Jsprojects = (props) => {
                     </div>
 
                     <div className='col-0 col-md-2'></div>
-                    <div className='col-12 col-md-8 pt-2' id='webdev'>
+                    <div className='col-12 col-md-8 pt-5' id='webdev'>
                         <a href='https://currency-exchange-react-app-jf.herokuapp.com/' target="_blank">
-                            <img src={ currency } width='688' height='auto' />
+                            <img src={ currency } width='64%' height='auto' />
                             <h2 id='reveal'>React Currency Converter</h2>
                             <br/>
                         </a>
@@ -23,9 +23,9 @@ const Jsprojects = (props) => {
                     <div className='col-0 col-md-2'></div>
 
                     <div className='col-0 col-md-2'></div>
-                    <div className='col-12 col-md-8 pt-4 my-3' id='webdev'>
+                    <div className='col-12 col-md-8 pt-5 my-3' id='webdev'>
                         <a href='https://peaceful-hoover-ec2589.netlify.app/' target="_blank">
-                            <img src={ mathgame } width='388' height='auto' />
+                            <img src={ mathgame } width='64%' height='auto' />
                             <h2 id='reveal'>Simple Math Game</h2>
                         </a>
                     </div>

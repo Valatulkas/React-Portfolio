@@ -16,9 +16,9 @@ const Htmlprojects = (props) => {
                     <div className='col-0 col-md-2'></div>
 
                     <div className='col-0 col-md-2'></div>
-                    <div className='col-12 col-md-8 pt-2' id='webdev'>
+                    <div className='col-12 col-md-8 py-5' id='webdev'>
                         <a href='https://eager-lamarr-f0647c.netlify.app/' target="_blank">
-                            <img src={ apple } width='788px' height='auto' />
+                            <img src={ apple } width='64%' height='auto' />
                             <h2 id='reveal'>Apple</h2>
                             <br/>
                         </a>
@@ -26,9 +26,9 @@ const Htmlprojects = (props) => {
                     <div className='col-0 col-md-2'></div>
 
                     <div className='col-0 col-md-2'></div>
-                    <div className='col-12 col-md-8 pt-2 mt-4' id='webdev'>
+                    <div className='col-12 col-md-8 py-5 mt-2' id='webdev'>
                         <a href='https://romantic-raman-89cffe.netlify.app/' target="_blank">
-                            <img src={ newsweek } width='788px' height='auto' />
+                            <img src={ newsweek } width='64%' height='auto' />
                             <h2 id='reveal'>Newsweek</h2>
                             <br/>
                         </a>
@@ -36,9 +36,9 @@ const Htmlprojects = (props) => {
                     <div className='col-0 col-md-2'></div>
 
                     <div className='col-0 col-md-2'></div>
-                    <div className='col-12 col-md-8 pt-2 my-4' id='webdev'>
+                    <div className='col-12 col-md-8 py-5 my-2' id='webdev'>
                         <a href='https://optimistic-jepsen-9be5a6.netlify.app/' target="_blank">
-                            <img src={ airbnb } width='788' height='auto' /> 
+                            <img src={ airbnb } width='64%' height='auto' /> 
                             <h2 id='reveal'>AirBNB Newsroom</h2>
                             <br/>
                         </a>

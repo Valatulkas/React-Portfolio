@@ -14,9 +14,9 @@ const Railsprojects = () => {
                         <div className='col-0 col-md-2'></div>
 
                         <div className='col-0 col-md-2'></div>
-                        <div className='col-12 col-md-8 pt-2' id='webdev'>
+                        <div className='col-12 col-md-8 pt-5 mb-3' id='webdev'>
                             <a href='https://jf-fullstack-ruby-todo-list.herokuapp.com/' target="_blank">
-                                <img src={ todolist } width='788px' height='auto' />
+                                <img src={ todolist } width='64%' height='auto' />
                                 <h2 id='reveal'>Full Stack To Do List</h2>
                                 <br/>
                             </a>
