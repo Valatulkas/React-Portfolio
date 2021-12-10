@@ -25,10 +25,10 @@ const Railsprojects = () => {
                     <div className='col-0 col-md-2'></div>
 
                     <div className='col-0 col-md-2'></div>
-                    <div className='col-12 col-md-8 pt-5 mb-3' id='webdev'>
+                    <div className='col-12 col-md-8 py-5 mb-3' id='webdev'>
                         <a href='https://rails-fs-twitter-clone.herokuapp.com/' target="_blank">
                             <img src={ twitter } width='64%' height='auto' />
-                            <h2 id='reveal'>React in RoR Twitter Clone</h2>
+                            <h2 id='reveal'>Ruby in Rails Twitter Clone <br/> <small>Raect frontend</small></h2>
                             <br/>
                         </a>
                     </div>
