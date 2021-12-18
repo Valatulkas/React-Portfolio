@@ -4,7 +4,7 @@ import './style.css';
 const Snake = () => {
     return (
         <React.Fragment>
-            <h1>Vanilla JavaScript Snake</h1>
+            <h1>Vanilla JS Snake</h1>
             <button class='start'>Start / Restart</button>
             <div class='score'>
                 Score: 
