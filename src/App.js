@@ -7,6 +7,7 @@ import Corco from './corco';
 import Wuter from './wuter';
 import Yapon from './yapon';
 import Sugoi from './sugoi';
+import Snake from './snake';
 import Htmlprojects from './htmlprojects';
 import Jsprojects from './jsprojects';
 import Railsprojects from './railsprojects';
@@ -25,6 +26,7 @@ function App() {
         <Route path='/wuter' component={Wuter} />
         <Route path='/yapon' component={Yapon} />
         <Route path='/sugoi' component={Sugoi} />
+        <Route path='/snake' component={Snake} />
 
       </Structure>
     </Router>

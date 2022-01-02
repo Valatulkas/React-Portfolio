@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-style: italic;
+}
+.grid {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+    border-color: rgb(2, 102, 7);
+}
+
+.score {
+    width: 90px;
+    margin: auto;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-style: solid;
+    border-color: orchid;
+    border-radius: 8px;
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.snake {
+    background-color: darkslateblue;
+    border-radius: 4px;
+}
+
+.apple {
+    background-color: rgb(177, 2, 2);
+    border-radius: 50%;
+}
+
+button:hover {
+    background-color: skyblue;
+}
