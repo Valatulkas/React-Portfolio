@@ -1,6 +1,7 @@
 import React from 'react';
 import currency from './images/urls/currency.png';
 import mathgame from './images/urls/mathgame.png';
+import dash from './images/urls/dash.png'
 
 const Jsprojects = (props) => {
     return (
@@ -17,6 +18,16 @@ const Jsprojects = (props) => {
                         <a href='https://currency-exchange-react-app-jf.herokuapp.com/' target="_blank">
                             <img src={ currency } width='64%' height='auto' />
                             <h2 id='reveal'>React Currency Converter</h2>
+                            <br/>
+                        </a>
+                    </div>
+                    <div className='col-0 col-md-2'></div>
+
+                    <div className='col-0 col-md-2'></div>
+                    <div className='col-12 col-md-8 pt-5' id='webdev'>
+                        <a href='https://silly-albattani-865902.netlify.app/' target="_blank">
+                            <img src={ dash } width='64%' height='auto' />
+                            <h2 id='reveal'>DeFi Dashboard</h2>
                             <br/>
                         </a>
                     </div>
