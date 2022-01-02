@@ -7,7 +7,7 @@ const Structure = (props) => {
         <React.Fragment>
             <nav className='navbar navbar-expand-lg'>
                 <div className='container'>
-                    <div className='col-12 col-md-2'>
+                    <div className='col-12 col-md-3'>
                         <a className='navbar-link'>
                             <NavLink to='/'>
                                 <h1 className='label'>JFerg</h1>
@@ -38,16 +38,8 @@ const Structure = (props) => {
                             </NavLink>
                         </a>
                     </div>
-
-                    <div className='col-12 col-md-2'>
-                        <a className='navbar-link'>
-                            <NavLink to='/snake'>
-                                <h4>Games</h4>
-                            </NavLink>
-                        </a>
-                    </div>
                     
-                    <div className='col-12 col-md-2'>
+                    <div className='col-12 col-md-3'>
                         <a className='navbar-link'>
                             <NavLink to='/sugoi'>
                                 <h2 className='label'>Sugoi</h2>

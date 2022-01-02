@@ -8,7 +8,9 @@ const Bio = (props) => {
                 <div className='row' id='bio'>
                     <div className='col-0 col-md-1'></div>
                     <div className='col-12 col-md-4 mt-4' id='bio'>
-                        <img src={ me } alt='jferg' width='320px' height='auto' id='me'/>
+                        <a href='/snake'>
+                            <img src={ me } alt='jferg' width='320px' height='auto' id='me'/>
+                        </a>
                     </div>
                     <div className='col-12 col-md-6'>
                                 <h3>aspiring full stack developer</h3>
