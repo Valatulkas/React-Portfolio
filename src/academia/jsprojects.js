@@ -1,7 +1,7 @@
 import React from 'react';
-import currency from './images/urls/currency.png';
-import mathgame from './images/urls/mathgame.png';
-import dash from './images/urls/dash.png'
+import currency from '../images/urls/currency.png';
+import mathgame from '../images/urls/mathgame.png';
+import dash from '../images/urls/dash.png'
 
 const Jsprojects = (props) => {
     return (

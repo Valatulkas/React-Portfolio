@@ -2,15 +2,15 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
 import Structure from './structure';
 import IntroDisplay from './photo-portion';
-import Petunia from './petunia';
-import Corco from './corco';
-import Wuter from './wuter';
-import Yapon from './yapon';
-import Sugoi from './sugoi';
-import Snake from './snake';
-import Htmlprojects from './htmlprojects';
-import Jsprojects from './jsprojects';
-import Railsprojects from './railsprojects';
+import Petunia from './hobby/petunia';
+import Corco from './hobby/corco';
+import Wuter from './hobby/wuter';
+import Yapon from './hobby/yapon';
+import Sugoi from './hobby/sugoi';
+import Snake from './sneaky/snake';
+import Htmlprojects from './academia/htmlprojects';
+import Jsprojects from './academia/jsprojects';
+import Railsprojects from './academia/railsprojects';
 
 function App() {
   return (

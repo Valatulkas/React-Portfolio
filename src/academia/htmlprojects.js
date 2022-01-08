@@ -1,7 +1,7 @@
 import React from 'react';
-import airbnb from './images/urls/airbnb.png';
-import apple from './images/urls/apple.png';
-import newsweek from './images/urls/newsweek.png';
+import airbnb from '../images/urls/airbnb.png';
+import apple from '../images/urls/apple.png';
+import newsweek from '../images/urls/newsweek.png';
 
 const Htmlprojects = (props) => {
     return (

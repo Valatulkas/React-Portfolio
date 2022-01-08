@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
-import work from './images/petunia/work.JPG';
-import feesh from './images/corco/feesh.jpeg';
-import snowy from './images/yapon/snowy.JPG';
-import sneaky from './images/snurf/sneaky.JPG';
+import work from '../images/petunia/work.JPG';
+import feesh from '../images/corco/feesh.jpeg';
+import snowy from '../images/yapon/snowy.JPG';
+import sneaky from '../images/snurf/sneaky.JPG';
 
 const Sugoi = (props) => {
     return (

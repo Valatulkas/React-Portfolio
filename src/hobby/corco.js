@@ -1,12 +1,12 @@
 import React from 'react';
-import feesh from './images/corco/feesh.jpeg';
-import dry from './images/corco/dry.jpeg';
-import exhausted from './images/corco/exhausted.JPG';
-import mahi from './images/corco/mahi.jpeg';
-import night from './images/corco/night.jpeg';
-import sanblas from './images/corco/sanblas.jpeg';
-import tilt from './images/corco/tilt.jpeg';
-import wow from './images/corco/wow.jpeg';
+import feesh from '../images/corco/feesh.jpeg';
+import dry from '../images/corco/dry.jpeg';
+import exhausted from '../images/corco/exhausted.JPG';
+import mahi from '../images/corco/mahi.jpeg';
+import night from '../images/corco/night.jpeg';
+import sanblas from '../images/corco/sanblas.jpeg';
+import tilt from '../images/corco/tilt.jpeg';
+import wow from '../images/corco/wow.jpeg';
 
 const Corco = (props) => {
     return (

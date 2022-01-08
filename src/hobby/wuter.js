@@ -1,11 +1,11 @@
 import React from 'react';
-import subway from './images/snurf/subway.JPG';
-import backside from './images/snurf/backside.jpg';
-import left from './images/snurf/left.JPG';
-import right from './images/snurf/right.JPG';
-import oregon from './images/snurf/oregon.JPG';
-import undisclosed from './images/snurf/undisclosed.JPG';
-import santa from './images/snurf/santa.JPG';
+import subway from '../images/snurf/subway.JPG';
+import backside from '../images/snurf/backside.jpg';
+import left from '../images/snurf/left.JPG';
+import right from '../images/snurf/right.JPG';
+import oregon from '../images/snurf/oregon.JPG';
+import undisclosed from '../images/snurf/undisclosed.JPG';
+import santa from '../images/snurf/santa.JPG';
 
 const Wuter = (props) => {
     return (

@@ -1,6 +1,6 @@
 import React from 'react';
-import todolist from './images/urls/todolist.png';
-import twitter from './images/urls/twitter.png';
+import todolist from '../images/urls/todolist.png';
+import twitter from '../images/urls/twitter.png';
 
 const Railsprojects = () => {
     return (

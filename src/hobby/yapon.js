@@ -1,14 +1,14 @@
 import React from 'react';
-import yapon from './images/yapon/yapon.JPG';
-import blue from './images/yapon/blue.JPG';
-import board from './images/yapon/board.JPG';
-import car from './images/yapon/car.JPG';
-import colors from './images/yapon/colors.JPG';
-import drop from './images/yapon/drop.JPG';
-import lift from './images/yapon/lift.JPG';
-import ramen from './images/yapon/ramen.JPG';
-import snow from './images/yapon/snow.JPG';
-import tempura from './images/yapon/tempura.JPG';
+import yapon from '../images/yapon/yapon.JPG';
+import blue from '../images/yapon/blue.JPG';
+import board from '../images/yapon/board.JPG';
+import car from '../images/yapon/car.JPG';
+import colors from '../images/yapon/colors.JPG';
+import drop from '../images/yapon/drop.JPG';
+import lift from '../images/yapon/lift.JPG';
+import ramen from '../images/yapon/ramen.JPG';
+import snow from '../images/yapon/snow.JPG';
+import tempura from '../images/yapon/tempura.JPG';
 
 const Yapon = (props) => {
     return (
