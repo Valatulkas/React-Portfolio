@@ -37,7 +37,7 @@ const Jsprojects = (props) => {
                     <div className='col-12 col-md-8 pt-5 my-3' id='webdev'>
                         <a href='https://peaceful-hoover-ec2589.netlify.app/' target="_blank">
                             <img src={ mathgame } width='64%' height='auto' />
-                            <h2 id='reveal'>Simple Math Game</h2>
+                            <div className='reveal'><h2>Math Game</h2></div>
                         </a>
                     </div>
                     <div className='col-0 col-md-2'></div>
