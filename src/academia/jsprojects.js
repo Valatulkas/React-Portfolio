@@ -18,7 +18,7 @@ const Jsprojects = (props) => {
                         <a href='https://currency-exchange-react-app-jf.herokuapp.com/' target="_blank">
                             <img src={ currency } width='64%' height='auto' />
                             <div className='reveal'>
-                                <h2 id='reveal'>React Currency Converter</h2>
+                                <h2>React Currency Converter</h2>
                             </div>
                             <br/>
                         </a>
@@ -27,10 +27,11 @@ const Jsprojects = (props) => {
 
                     <div className='col-0 col-md-2'></div>
                     <div className='col-12 col-md-8 pt-5' id='webdev'>
-                        <a href='https://silly-albattani-865902.netlify.app/' target="_blank">
+                        <a href='https://github.com/Valatulkas/c-dashboard' target="_blank">
                             <img src={ dash } width='64%' height='auto' />
                             <div className='reveal'>
-                                <h2 id='reveal'>DeFi Dashboard</h2>
+                                <h2>DeFi Dashboard</h2>
+                                <h4>demonstrative purposes, need to download repo and run node backend per ReadMe</h4>
                             </div>
                             <br/>
                         </a>

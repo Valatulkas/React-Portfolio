@@ -19,7 +19,7 @@ const Htmlprojects = (props) => {
                     <div className='col-12 col-md-8 py-5' id='webdev'>
                         <a href='https://eager-lamarr-f0647c.netlify.app/' target="_blank">
                             <img src={ apple } width='64%' height='auto' />
-                            <h2 id='reveal'>Apple</h2>
+                            <h2>Apple</h2>
                             <br/>
                         </a>
                     </div>
@@ -29,7 +29,7 @@ const Htmlprojects = (props) => {
                     <div className='col-12 col-md-8 py-5 mt-2' id='webdev'>
                         <a href='https://romantic-raman-89cffe.netlify.app/' target="_blank">
                             <img src={ newsweek } width='64%' height='auto' />
-                            <h2 id='reveal'>Newsweek</h2>
+                            <h2>Newsweek</h2>
                             <br/>
                         </a>
                     </div>
