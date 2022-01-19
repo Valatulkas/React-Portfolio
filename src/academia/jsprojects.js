@@ -17,7 +17,9 @@ const Jsprojects = (props) => {
                     <div className='col-12 col-md-8 pt-5' id='webdev'>
                         <a href='https://currency-exchange-react-app-jf.herokuapp.com/' target="_blank">
                             <img src={ currency } width='64%' height='auto' />
-                            <h2 id='reveal'>React Currency Converter</h2>
+                            <div className='reveal'>
+                                <h2 id='reveal'>React Currency Converter</h2>
+                            </div>
                             <br/>
                         </a>
                     </div>
@@ -27,7 +29,9 @@ const Jsprojects = (props) => {
                     <div className='col-12 col-md-8 pt-5' id='webdev'>
                         <a href='https://silly-albattani-865902.netlify.app/' target="_blank">
                             <img src={ dash } width='64%' height='auto' />
-                            <h2 id='reveal'>DeFi Dashboard</h2>
+                            <div className='reveal'>
+                                <h2 id='reveal'>DeFi Dashboard</h2>
+                            </div>
                             <br/>
                         </a>
                     </div>
@@ -37,7 +41,9 @@ const Jsprojects = (props) => {
                     <div className='col-12 col-md-8 pt-5 my-3' id='webdev'>
                         <a href='https://peaceful-hoover-ec2589.netlify.app/' target="_blank">
                             <img src={ mathgame } width='64%' height='auto' />
-                            <div className='reveal'><h2>Math Game</h2></div>
+                            <div className='reveal'>
+                                <h2>Math Game</h2>
+                            </div>
                         </a>
                     </div>
                     <div className='col-0 col-md-2'></div>
