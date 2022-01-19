@@ -19,7 +19,9 @@ const Htmlprojects = (props) => {
                     <div className='col-12 col-md-8 py-5' id='webdev'>
                         <a href='https://eager-lamarr-f0647c.netlify.app/' target="_blank">
                             <img src={ apple } width='64%' height='auto' />
-                            <h2>Apple</h2>
+                            <div className='reveal'>
+                                <h2>Apple</h2>
+                            </div>
                             <br/>
                         </a>
                     </div>
@@ -29,7 +31,9 @@ const Htmlprojects = (props) => {
                     <div className='col-12 col-md-8 py-5 mt-2' id='webdev'>
                         <a href='https://romantic-raman-89cffe.netlify.app/' target="_blank">
                             <img src={ newsweek } width='64%' height='auto' />
-                            <h2>Newsweek</h2>
+                            <div className='reveal'>
+                                <h2>Newsweek</h2>
+                            </div>
                             <br/>
                         </a>
                     </div>
@@ -39,7 +43,9 @@ const Htmlprojects = (props) => {
                     <div className='col-12 col-md-8 py-5 my-2' id='webdev'>
                         <a href='https://optimistic-jepsen-9be5a6.netlify.app/' target="_blank">
                             <img src={ airbnb } width='64%' height='auto' /> 
-                            <h2 id='reveal'>AirBNB Newsroom</h2>
+                            <div className='reveal'>
+                                <h2>AirBNB Newsroom</h2>
+                            </div>
                             <br/>
                         </a>
                     </div>
