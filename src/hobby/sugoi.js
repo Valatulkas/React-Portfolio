@@ -11,7 +11,7 @@ const Sugoi = (props) => {
             <div className='container main sugoi'>
                 <div className='row'>
                     <div className='col-md-12'>
-                        <h3 className='sugoi-title mb-4'>~ sugoi (japanese) translates to awesome ~<br/>collection of personal projects</h3>
+                        <h3 className='sugoi-title my-4'>sugoi ~ photo ramblings</h3>
                     </div>
 
                     <div className='col-md-12 mb-4 py-3' id='borders'>
